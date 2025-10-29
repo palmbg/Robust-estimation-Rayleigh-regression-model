@@ -1,0 +1,13 @@
+function ll = makeloglikr(x1, y, vw)
+ll = @loglik;
+
+    function [yy, J] = loglik(beta)
+        
+        mu = exp(x1*beta');
+        
+        yy = -sum(vw*(log(pi/2)+log(y)-log(mu.^2)-(pi.*y.^2)./(4.*(mu.^2))));
+        
+        J = -(x1' * vw * diag(mu) * ((pi.*(y.^2))./(2.*(mu.^3))-(2)./(mu)))';
+    end
+
+end
