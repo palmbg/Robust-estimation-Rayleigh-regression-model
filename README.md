@@ -1,0 +1,1 @@
+Palm, B.G., Bayer, F.M., Machado, R., Pettersson, M.I., Vu, V.T. and Cintra, R.J., 2021. Robust Rayleigh regression method for SAR image processing in presence of outliers. IEEE Transactions on Geoscience and Remote Sensing, 60, pp.1-12.
